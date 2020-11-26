@@ -1,158 +1,37 @@
-      <!-- Show static HTML/CSS as a placeholder in case js is not enabled - javascript include will override this if things work -->
-      <style type="text/css" media="screen">
-  .gr_custom_container_ {
-    /* customize your Goodreads widget container here*/
-    border: 1px solid gray;
-    border-radius:10px;
-    padding: 10px 5px 10px 5px;
-    background-color: #FFF;
-    color: #000;
-    width: 300px
-  }
-  .gr_custom_header_ {
-    /* customize your Goodreads header here*/
-    border-bottom: 1px solid gray;
-    width: 100%;
-    margin-bottom: 5px;
-    text-align: center;
-    font-size: 120%
-  }
-  .gr_custom_each_container_ {
-    /* customize each individual book container here */
-    width: 100%;
-    clear: both;
-    margin-bottom: 10px;
-    overflow: auto;
-    padding-bottom: 4px;
-    border-bottom: 1px solid #aaa;
-  }
-  .gr_custom_book_container_ {
-    /* customize your book covers here */
-    overflow: hidden;
-    height: 60px;
-      float: left;
-      margin-right: 4px;
-      width: 39px;
-  }
-  .gr_custom_author_ {
-    /* customize your author names here */
-    font-size: 10px;
-  }
-  .gr_custom_tags_ {
-    /* customize your tags here */
-    font-size: 10px;
-    color: gray;
-  }
-  .gr_custom_rating_ {
-    /* customize your rating stars here */
-    float: right;
-  }
+   	<style>
+#gr_updates_widget{
+border-radius: 5px;
+background-color:#fff;
+border:solid #683205 10px;
+-webkit-box-shadow: 0px 0px 4px 1px #595959,
+inset 0px 0px 0px 1px #7D730B;
+-moz-box-shadow: 0px 0px 4px 1px #595959,
+inset 0px 0px 0px 1px #7D730B;
+box-shadow: 0px 0px 4px 1px #595959,
+inset 0px 0px 0px 1px #7D730B;
+padding:15px 0 35px 15px;
+width:250px;
+height:330px;
+}
+#gr_footer{
+margin-bottom:10px;
+}
+#gr_updates_widget p{
+padding:0px;
+margin:0;
+font-size:14px;
+}
+#gr_footer img{
+width:100px;
+float:left;
+}
+#gr_updates_widget img{
+	border-style:none;
+}
 </style>
-
-      <div id="gr_custom_widget_">
-          <div class="gr_custom_container_">
-    <h2 class="gr_custom_header_">
-    <a style="text-decoration: none;" rel="nofollow" href="https://www.goodreads.com/review/list/70054450-ana-m?shelf=read&amp;utm_medium=api&amp;utm_source=custom_widget">Ana&#39;s books</a>
-    </h2>
-      <div class="gr_custom_each_container_">
-          <div class="gr_custom_book_container_">
-            <a title="Kaiki: Cuentos de terror y locura" rel="nofollow" href="https://www.goodreads.com/review/show/3592722842?utm_medium=api&amp;utm_source=custom_widget"><img alt="Kaiki: Cuentos de terror y locura" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1489781040l/34615030._SY75_.jpg" /></a>
-          </div>
-          <div class="gr_custom_rating_">
-            <span class=" staticStars notranslate" title="really liked it"><img alt="really liked it" src="https://www.goodreads.com/images/layout/gr_red_star_active.png" /><img alt="" src="https://www.goodreads.com/images/layout/gr_red_star_active.png" /><img alt="" src="https://www.goodreads.com/images/layout/gr_red_star_active.png" /><img alt="" src="https://www.goodreads.com/images/layout/gr_red_star_active.png" /><img alt="" src="https://www.goodreads.com/images/layout/gr_red_star_inactive.png" /></span>
-          </div>
-          <div class="gr_custom_title_">
-            <a rel="nofollow" href="https://www.goodreads.com/review/show/3592722842?utm_medium=api&amp;utm_source=custom_widget">Kaiki: Cuentos de terror y locura</a>
-          </div>
-          <div class="gr_custom_author_">
-            by <a rel="nofollow" href="https://www.goodreads.com/author/show/5559307.Kaita_Murayama">Kaita Murayama</a>
-          </div>
-          <div class="gr_custom_review_">
-            Este libro lo leí por el club de lectura Moon and secrets
-
-Solo hubo dos que realmente me encantaron: La lengua del diablo de Kaita Murayama y La sombra de la muerte de Juran Hisao, Jinmenso de Jun’ichirō Tanizaki, El de demonio del cabe...
-          </div>
-      </div>
-      <div class="gr_custom_each_container_">
-          <div class="gr_custom_book_container_">
-            <a title="Blue, Clean" rel="nofollow" href="https://www.goodreads.com/review/show/3453377533?utm_medium=api&amp;utm_source=custom_widget"><img alt="Blue, Clean" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1491034723l/34746976._SX50_.jpg" /></a>
-          </div>
-          <div class="gr_custom_rating_">
-            <span class=" staticStars notranslate" title="liked it"><img alt="liked it" src="https://www.goodreads.com/images/layout/gr_red_star_active.png" /><img alt="" src="https://www.goodreads.com/images/layout/gr_red_star_active.png" /><img alt="" src="https://www.goodreads.com/images/layout/gr_red_star_active.png" /><img alt="" src="https://www.goodreads.com/images/layout/gr_red_star_inactive.png" /><img alt="" src="https://www.goodreads.com/images/layout/gr_red_star_inactive.png" /></span>
-          </div>
-          <div class="gr_custom_title_">
-            <a rel="nofollow" href="https://www.goodreads.com/review/show/3453377533?utm_medium=api&amp;utm_source=custom_widget">Blue, Clean</a>
-          </div>
-          <div class="gr_custom_author_">
-            by <a rel="nofollow" href="https://www.goodreads.com/author/show/16652511.Shinji_Kotobuki">Shinji Kotobuki</a>
-          </div>
-          <div class="gr_custom_review_">
-            Lo volví a leer después de tiempo.
-Me ha gustado mucho, aunque tengo que decir que algunas veces (muchaaaas) me desespero lo imprudente que es el protagonista, es indeciso pero no por eso me desesperaba sino por qué le daba alas al otro ...
-          </div>
-      </div>
-      <div class="gr_custom_each_container_">
-          <div class="gr_custom_book_container_">
-            <a title="Los culpables" rel="nofollow" href="https://www.goodreads.com/review/show/3412924347?utm_medium=api&amp;utm_source=custom_widget"><img alt="Los culpables" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1386623916l/1973035._SY75_.jpg" /></a>
-          </div>
-          <div class="gr_custom_rating_">
-            <span class=" staticStars notranslate" title="it was ok"><img alt="it was ok" src="https://www.goodreads.com/images/layout/gr_red_star_active.png" /><img alt="" src="https://www.goodreads.com/images/layout/gr_red_star_active.png" /><img alt="" src="https://www.goodreads.com/images/layout/gr_red_star_inactive.png" /><img alt="" src="https://www.goodreads.com/images/layout/gr_red_star_inactive.png" /><img alt="" src="https://www.goodreads.com/images/layout/gr_red_star_inactive.png" /></span>
-          </div>
-          <div class="gr_custom_title_">
-            <a rel="nofollow" href="https://www.goodreads.com/review/show/3412924347?utm_medium=api&amp;utm_source=custom_widget">Los culpables</a>
-          </div>
-          <div class="gr_custom_author_">
-            by <a rel="nofollow" href="https://www.goodreads.com/author/show/620946.Juan_Villoro">Juan Villoro</a>
-          </div>
-          <div class="gr_custom_review_">
-            Es que me aburrió.
-
-Los únicos que me gustaron fueron &quot;mariachi&quot; y &quot;amigos mexicanos&quot; de los otros la verdad ya no me acuerdo mucho.
-
-No hubiera sido tan mala lectura si no hubiera leído nada de Juan y como nos venden este libro de tan e...
-          </div>
-      </div>
-      <div class="gr_custom_each_container_">
-          <div class="gr_custom_book_container_">
-            <a title="恋してBABY [Koishite Baby]" rel="nofollow" href="https://www.goodreads.com/review/show/3371157136?utm_medium=api&amp;utm_source=custom_widget"><img alt="恋してBABY [Koishite Baby]" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1581753300l/51279595._SX50_.jpg" /></a>
-          </div>
-          <div class="gr_custom_rating_">
-            <span class=" staticStars notranslate"><img src="https://www.goodreads.com/images/layout/gr_red_star_inactive.png" /><img alt="" src="https://www.goodreads.com/images/layout/gr_red_star_inactive.png" /><img alt="" src="https://www.goodreads.com/images/layout/gr_red_star_inactive.png" /><img alt="" src="https://www.goodreads.com/images/layout/gr_red_star_inactive.png" /><img alt="" src="https://www.goodreads.com/images/layout/gr_red_star_inactive.png" /></span>
-          </div>
-          <div class="gr_custom_title_">
-            <a rel="nofollow" href="https://www.goodreads.com/review/show/3371157136?utm_medium=api&amp;utm_source=custom_widget">恋してBABY [Koishite Baby]</a>
-          </div>
-          <div class="gr_custom_author_">
-            by <a rel="nofollow" href="https://www.goodreads.com/author/show/20019851.Mimeko_Miyako">Mimeko Miyako</a>
-          </div>
-      </div>
-      <div class="gr_custom_each_container_">
-          <div class="gr_custom_book_container_">
-            <a title="Las increíbles aventuras del asombroso Edgar Allan Poe" rel="nofollow" href="https://www.goodreads.com/review/show/3360409677?utm_medium=api&amp;utm_source=custom_widget"><img alt="Las increíbles aventuras del asombroso Edgar Allan Poe" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1540483206l/42436963._SY75_.jpg" /></a>
-          </div>
-          <div class="gr_custom_rating_">
-            <span class=" staticStars notranslate" title="liked it"><img alt="liked it" src="https://www.goodreads.com/images/layout/gr_red_star_active.png" /><img alt="" src="https://www.goodreads.com/images/layout/gr_red_star_active.png" /><img alt="" src="https://www.goodreads.com/images/layout/gr_red_star_active.png" /><img alt="" src="https://www.goodreads.com/images/layout/gr_red_star_inactive.png" /><img alt="" src="https://www.goodreads.com/images/layout/gr_red_star_inactive.png" /></span>
-          </div>
-          <div class="gr_custom_title_">
-            <a rel="nofollow" href="https://www.goodreads.com/review/show/3360409677?utm_medium=api&amp;utm_source=custom_widget">Las increíbles aventuras del asombroso Edgar Allan Poe</a>
-          </div>
-          <div class="gr_custom_author_">
-            by <a rel="nofollow" href="https://www.goodreads.com/author/show/1323412.Bernardo_Esquinca">Bernardo Esquinca</a>
-          </div>
-          <div class="gr_custom_review_">
-            Aunque bien podría considerarlo como fanfic y una de sus obras no tan impresionantes me ha gustado.
-
-Supongo que si les gusta el autor Poe podría ser aún más agradable de leer, y tiene bastantes tributos a personajes que en verdad existi...
-          </div>
-      </div>
-  <br style="clear: both"/>
-  <center>
-    <a rel="nofollow" href="https://www.goodreads.com/"><img alt="goodreads.com" style="border:0" src="https://www.goodreads.com/images/widget/widget_logo.gif" /></a>
-  </center>
-  <noscript>
-    Share <a rel="nofollow" href="https://www.goodreads.com/">book reviews</a> and ratings with Ana, and even join a <a rel="nofollow" href="https://www.goodreads.com/group">book club</a> on Goodreads.
-  </noscript>
-  </div>
-
-      </div>
-      <script src="https://www.goodreads.com/review/custom_widget/70054450.Ana's%20bookshelf:%20read?cover_position=&cover_size=&num_books=5&order=&shelf=&sort=&widget_bg_transparent=" type="text/javascript" charset="utf-8"></script>
+	<div id="gr_updates_widget">
+	  <iframe id="the_iframe" src="https://www.goodreads.com/widgets/user_update_widget?height=400&num_updates=3&user=70054450&width=250" width="248" height="330" frameborder="0"></iframe>
+		<div id="gr_footer">
+		  <a href="https://www.goodreads.com/"><img alt="Goodreads: Book reviews, recommendations, and discussion" rel="nofollow" src="https://www.goodreads.com/images/layout/goodreads_logo_140.png" /></a>
+		</div>
+	</div>
